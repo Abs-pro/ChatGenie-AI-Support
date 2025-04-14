@@ -1,0 +1,18 @@
+# Flask for running the web server
+Flask>=2.0.0
+
+# Transformers for conversational AI models
+transformers>=4.0.0
+
+# PyTorch as the backend for Transformer models
+torch>=1.8.0
+
+# SentencePiece is often required for tokenization in Transformer models
+sentencepiece>=0.1.95
+
+# Utility libraries
+numpy>=1.19.0
+requests>=2.25.1
+
+# Optional: If you plan to deploy the service with a WSGI server
+gunicorn>=20.0.4
